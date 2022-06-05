@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: space-between;
+}
+.blog-card {
+    flex-basis: 26%;
+    padding: 10px;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.blog-card p {
+  width: 30rem;  
+}
+.d-flex{
+    display: flex;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+button{
+    padding: 20px 50px;
+}
+p{
+    font-size: 1.5rem;
+    
+}
+.html2_body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#post_desc{
+    height: 100px;
+    width: 400px;
+}
+input{
+    padding: 10px;
+
+}
